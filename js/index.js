@@ -1,12 +1,13 @@
 
 
-
 const showblog = getElementUsingId("showblog");
 const showHistory = getElementUsingId("showHistory");
 const donat_container = getElementUsingId("donat_container");
 const history_container = getElementUsingId("history_container");
 const closeModel = getElementUsingId("closeModel");
 const modal = getElementUsingId("modal");
+
+
 showblog.addEventListener('click', (e) => {
     e.preventDefault();
     history_container.classList.add("hidden");
@@ -15,6 +16,8 @@ showblog.addEventListener('click', (e) => {
     showHistory.classList.remove("bg-btn_bg");
     showblog.classList.add("bg-btn_bg")
 });
+
+
 showHistory.addEventListener("click", (e) => {
     e.preventDefault();
     history_container.classList.add("flex");
@@ -23,14 +26,21 @@ showHistory.addEventListener("click", (e) => {
     showHistory.classList.add("bg-btn_bg");
     showblog.classList.remove("bg-btn_bg");
 });
+
+
 closeModel.addEventListener('click', (e) => {
     modal.classList.add("hidden")
     modal.classList.remove("flex")
 });
 
-// 
+
+
+
+
+
 let sum = 5500;
 const mainAmount = getElementUsingId('mainAmount');
+// common function 
 const handleDonation = (inputVal, val, title) => {
     let value = parseInt(val.innerHTML);
     let date = new Date();
@@ -51,21 +61,21 @@ const handleDonation = (inputVal, val, title) => {
         `;
     }
 };
-// Function for first 
+//  first 
 const handleClickOne = (e) => {
     let inputAmount1 = getElementUsingId("input_ammount_1");
     let title1 = getElementUsingId("title_1");
     const inputField1 = parseInt(getElementUsingId("inputfiled_1").value);
     handleDonation(inputField1, inputAmount1, title1);
 };
-// Function for second 
+//  second 
 const handleClickTwo = (e) => {
     let inputAmount2 = getElementUsingId("input_ammount_2");
     let title2 = getElementUsingId("title_2");
     const inputField2 = parseInt(getElementUsingId("inputfiled_2").value);
     handleDonation(inputField2, inputAmount2, title2);
 };
-// Function for third 
+//  third 
 const handleClickThree = (e) => {
     let inputAmount3 = getElementUsingId("input_ammount_3");
     let title3 = getElementUsingId("title_3");
@@ -73,7 +83,7 @@ const handleClickThree = (e) => {
     handleDonation(inputField3, inputAmount3, title3);
 };
 
-
+// four
 const handleClickFour =()=>{
     let inputAmount4 = getElementUsingId("input_ammount_4");
     let title4 = getElementUsingId("title_4");

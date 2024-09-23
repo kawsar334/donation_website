@@ -1,28 +1,25 @@
+
+
 const domQuesn = [
     {
         id: 1,
-        question: "What is the DOM in JavaScript?",
-        answer: "The DOM (Document Object Model) is a programming interface for web documents. It represents the structure of a webpage as a tree of objects, allowing JavaScript to access, modify, and interact with the content, structure, and style of the webpage."
+        question: "How do you select an element from the DOM?",
+        answer: "You can select an element using methods like document.getElementById(), document.querySelector(), document.querySelectorAll(), document.getElementsByClassName(), or document.getElementsByTagName()."
     },
     {
         id: 2,
-        question: "How can you select an HTML element by its ID in JavaScript?",
-        answer: "You can select an HTML element by its ID using the `document.getElementById('elementID')` method, which returns the element object if it exists, or `null` if it doesn't."
+        question: "What is event delegation in the context of the DOM?",
+        answer: "Event delegation is a technique where a single event listener is added to a parent element to manage events triggered by its child elements. This works due to event bubbling, reducing the need to attach listeners to multiple child elements."
     },
     {
         id: 3,
-        question: "What is the difference between `innerHTML` and `textContent`?",
-        answer: "`innerHTML` returns or sets the HTML content of an element, meaning it can contain HTML tags and elements. `textContent` returns or sets only the text content of an element, ignoring any HTML tags."
+        question: "How do you manipulate an element's attributes or styles using the DOM?",
+        answer: "You can manipulate an element's attributes using setAttribute() or by modifying properties directly, and change styles using the element's style property or classList for class-based styling."
     },
     {
         id: 4,
-        question: "How can you create a new HTML element using JavaScript?",
-        answer: "To create a new HTML element, you can use the `document.createElement('tagName')` method. For example, `document.createElement('div')` creates a new `div` element."
-    },
-    {
-        id: 5,
-        question: "How can you append a child element to an existing element in the DOM?",
-        answer: "You can append a child element to an existing element using the `appendChild()` method. For example, `parentElement.appendChild(childElement)` adds the `childElement` as the last child of `parentElement`."
+        question: "What is the purpose of the DOMContentLoaded event?",
+        answer: "The DOMContentLoaded event fires when the HTML document has been completely loaded and parsed, without waiting for external resources like images and stylesheets to load. It's useful for running JavaScript code as soon as the DOM is ready."
     }
 ];
 
