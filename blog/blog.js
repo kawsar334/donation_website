@@ -31,7 +31,6 @@ const getBlogElementById = (id) => {
 }
 
 const accordian_container = getBlogElementById("accordian_container");
-
 const handleAccordian = (e) => {
     if (e.children[0].children[1].classList.contains("hidden")) {
         e.children[0].children[1].classList.remove("hidden")

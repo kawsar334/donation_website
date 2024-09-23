@@ -39,7 +39,7 @@
 }
 </style>
 <body class="google_font bg-body_bg ">
-    <header class="sticky top-0 left-0 z-20">
+    <header class="sticky top-0 left-0 z-20 ">
         <nav class="bg-nav_bg flex justify-around items-center capitalize py-5">
             <div class="cursor-pointer ">
                 <a class="bg-btn_bg py-2 px-5 rounded font-semibold" href="./blog/blog.html">Blog</a>
@@ -114,7 +114,7 @@
     
             <div class=" w-[100%] lg:w-[45%] ">
                 <div class="flex justify-start items-start gap-1">
-                    <button class="flex justify-start items-center gap-1 bg-[lightgray]  btn-sm shadow  p-2 rounded "><img src="./assets/coin.png" class="w-[20px] h-[20px]" alt=""> <span id="input_ammount_2">600</span> <span>BDT</span></button>
+                    <button class="flex justify-start items-center gap-1 bg-[lightgray]  btn-sm shadow  p-2 rounded "><img src="./assets/coin.png" class="w-[20px] h-[20px]" alt=""> <span id="input_ammount_2">0</span> <span>BDT</span></button>
                 </div>
                 <h1 class="text- font-bold" id="title_2">Donate for Flood Relief in Feni,Bangladesh</h1>
                 <p class="py-6">
@@ -141,7 +141,7 @@
                 <div class="flex justify-start items-start gap-1">
                     <button class="flex justify-start items-center gap-1 bg-[lightgray]  btn-sm shadow  p-2 rounded "><img
                             src="./assets/coin.png" class="w-[20px] h-[20px]" alt="">
-                        <span id="input_ammount_3">2400</span> <span>BDT</span></button>
+                        <span id="input_ammount_3">0</span> <span>BDT</span></button>
                 </div>
                 <h1 class="text- font-bold" id="title_3">Aid for Injured in the Quota Movement</h1>
                 <p class="py-6">
@@ -160,22 +160,45 @@
             </div>
         </div>
     </div>
+    <!--  -->
+    <div class="hero p-3  h-max w-[100%]  ">
+        <div class="hero-content flex-col lg:flex-row gap-3 items-center  rounded border ">
+            <img src="./assets/quota-protest.png"
+                class="w-[100%] md:w-[100%] lg:w-[45%] rounded-lg shadow-2xl h-[300px] md:h-[400px] object-cover" />
+    
+            <div class=" w-[100%] lg:w-[45%] ">
+                <div class="flex justify-start items-start gap-1">
+                    <button class="flex justify-start items-center gap-1 bg-[lightgray]  btn-sm shadow  p-2 rounded "><img
+                            src="./assets/coin.png" class="w-[20px] h-[20px]" alt="">
+                        <span id="input_ammount_4">0</span> <span>BDT</span></button>
+                </div>
+                <h1 class="text- font-bold" id="title_4">Donate for Flood Relief in sylhet,Bangladesh</h1>
+                <p class="py-6">
+                    The recent floods in sylhet, sunamgonj have devastated local communities, leading to severe disruption and loss. Your generous
+                    donation will help provide immediate aid, including food, clean water, and medical supplies, to those affected by this
+                    calamity. Together, we can offer crucial support and help rebuild lives in the aftermath of this disaster. Every
+                    contribution counts towards making a real difference. Please consider donating today to assist those in urgent need.
+                </p>
+                <div class="flex justify-center items-center flex-col gap-3 ">
+    
+                    <input type="text" placeholder="Type here" id="inputfiled_4"
+                        class="input border-[lightgray] bg-transparent input-primary w-full outline-none " />
+                    <button class="btn bg-btn_bg w-full border-none" onclick="handleClickFour()">Donate Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+    
+    <!--  -->
+
    </section>
         <!-- donate_blog  section end here  -->
 
 
         <!-- history secion start here -->
          <div class="w-[80%] m-auto h-max  hidden  flex-col justify-start items-start gap-5 " id="history_container">
-            <!-- <div class="flex  flex-col justify-start items-start gap-3 border p-5 rounded w-[100%]">
-                <h1 class="text-2xl font-semibold capitalize">96500 Taka is Donated for famine-2024 at Feni, Bangladesh</h1>
-                <p class="text-[gray] capitalize">Date : Tue Sep 17 2024 08:39:11 GMT +0600 (Bangladesh Standard Time)</p>
-            </div>
-            
-            <div class="flex  flex-col justify-start items-start gap-3 border p-5 rounded w-[100%]">
-                <h1 class="text-2xl font-semibold capitalize">96500 Taka is Donated for famine-2024 at Feni, Bangladesh</h1>
-                <p class="text-[gray] capitalize">Date : Tue Sep 17 2024 08:39:11 GMT +0600 (Bangladesh Standard Time)</p>
-            </div> -->
-
+            <!-- dynamic contents here  -->
          </div>
         
         <!-- history secion end here -->
