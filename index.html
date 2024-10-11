@@ -20,7 +20,7 @@
         theme: {
             extend: {
                 colors: {
-                    btn_bg: "rgb(180, 244, 97)",
+                    btn_bg: "  #1abc9c  ",
                     nav_bg: 'rgb(249, 247, 243)',
                     body_bg: "rgb(255, 255, 255)"
                 },
@@ -113,7 +113,7 @@
                     <div class="flex justify-center items-center flex-col gap-3 ">
                         <input id="inputfiled_1" type="text" placeholder="write a Donation amount"
                             class="input border-[lightgray] bg-transparent input-primary w-full outline-none  " />
-                        <button class="btn bg-btn_bg border-none w-full" onclick="handleClickOne()">Donate Now</button>
+                        <button class="btn bg-btn_bg border-none w-full text-white" onclick="handleClickOne()">Donate Now</button>
                     </div>
                 </div>
             </div>
@@ -148,7 +148,7 @@
 
                         <input type="text" placeholder="write a Donation amount" id="inputfiled_2"
                             class="input border-[lightgray] bg-transparent input-primary w-full outline-none  " />
-                        <button class="btn bg-btn_bg w-full border-none" onclick="handleClickTwo()">Donate Now</button>
+                        <button class="btn bg-btn_bg w-full border-none  text-white" onclick="handleClickTwo()">Donate Now</button>
                     </div>
                 </div>
             </div>
@@ -181,7 +181,7 @@
 
                         <input type="text" placeholder="write a Donation amount" id="inputfiled_3"
                             class="input border-[lightgray] bg-transparent input-primary w-full outline-none  " />
-                        <button class="btn bg-btn_bg w-full border-none" onclick="handleClickThree()">Donate
+                        <button class="btn bg-btn_bg w-full border-none text-white text-white" onclick="handleClickThree()">Donate
                             Now</button>
                     </div>
                 </div>
@@ -214,7 +214,7 @@
                     <div class="flex justify-center items-center flex-col gap-3 ">
                         <input type="text" placeholder="write a Donation amount" id="inputfiled_4"
                             class="input border-[lightgray] bg-transparent input-primary w-full outline-none   " />
-                        <button class="btn bg-btn_bg w-full border-none" onclick="handleClickFour()">Donate Now</button>
+                        <button class="btn bg-btn_bg w-full border-none text-white" onclick="handleClickFour()">Donate Now</button>
                     </div>
                 </div>
             </div>
@@ -231,10 +231,151 @@
 
     <!-- history secion end here -->
 
+    <!-- services -->
+    <section class="bg-gray-100 py-12">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+    
+            <div class="text-center mb-8">
+                <h2 class="text-3xl font-bold text-gray-800">Our Services</h2>
+                <p class="text-gray-600 mt-2">We offer a variety of services to make it easy for you to contribute and make
+                    a difference in the lives of those in need.</p>
+            </div>
+    
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                    <div class="text-center">
+                        <div class="bg-blue-600 text-white p-4 rounded-full inline-block mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Online Donation</h3>
+                        <p class="text-gray-600">Easily donate online with a few clicks to support various causes.</p>
+                    </div>
+                </div>
+    
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                    <div class="text-center">
+                        <div class="bg-green-600 text-white p-4 rounded-full inline-block mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 10l9 9m0 0l9-9M12 19V3" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Volunteer Programs</h3>
+                        <p class="text-gray-600">Join our volunteer programs and contribute your time to help others.</p>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                    <div class="text-center">
+                        <div class="bg-red-600 text-white p-4 rounded-full inline-block mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v8m-4-4h8" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Fundraising Events</h3>
+                        <p class="text-gray-600">Participate in our events to raise funds for various causes.</p>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </section>
 
-    <footer class="h-[100px] w-full bg-nav_bg">
+     <!-- services -->
 
-    </footer>
+    <!--  contact form-->
+<section class="bg-gray-100 py-12">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-8">
+            <h2 class="text-3xl font-bold text-gray-800">Get in Touch</h2>
+            <p class="text-gray-600 mt-2">We’d love to hear from you! Please fill out the form below and we’ll get back
+                to you shortly.</p>
+        </div>
+        <div class="max-w-lg mx-auto bg-white p-6 rounded-lg shadow-md">
+            <form action="#" method="POST" class="space-y-6">
+                <div>
+                    <label for="name" class="block text-sm font-medium bg-white ">Full Name</label>
+                    <input type="text" id="name" name="name"
+                        class="w-full mt-1 p-3 border border-gray-300 rounded-md focus:outline-none bg-white  "
+                        placeholder="Your Name" required>
+                </div>
+                <div>
+                    <label for="email" class="block text-sm font-medium bg-white ">Email Address</label>
+                    <input type="email" id="email" name="email"
+                        class="w-full mt-1 p-3 border border-gray-300 rounded-md focus:outline-none bg-white  "
+                        placeholder="Your Email" required>
+                </div>
+                <div>
+                    <label for="message" class="block text-sm font-medium bg-white ">Message</label>
+                    <textarea id="message" name="message" rows="4"
+                        class="w-full mt-1 p-3 border border-gray-300 rounded-md focus:outline-none bg-white  "
+                        placeholder="Your Message" required></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit"
+                        class="bg-btn_bg text-white py-2 px-6 rounded-md hover:bg-blue-700 transition duration-300">Send
+                        Message</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- footer -->
+<footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+            <div>
+                <h3 class="text-lg font-semibold mb-4">About Us</h3>
+                <p class="text-gray-400 text-sm">
+                    We are dedicated to providing the best services for our users. Stay connected with us to know more
+                    about our offerings and updates.
+                </p>
+            </div>
+
+            <div>
+                <h3 class="text-lg font-semibold mb-4">Useful Links</h3>
+                <ul class="text-gray-400 text-sm space-y-2">
+                    <li><a href="#intro" class="hover:text-white">Home</a></li>
+                    <li><a href="#about" class="hover:text-white">About Us</a></li>
+                    <li><a href="#services" class="hover:text-white">Services</a></li>
+                    <li><a href="#contact" class="hover:text-white">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-lg font-semibold mb-4">Contact Information</h3>
+                <ul class="text-gray-400 text-sm space-y-2">
+                    <li><span class="font-semibold">Phone:</span> +966509325731</li>
+                    <li><span class="font-semibold">Email:</span> kawsarfiroz11@gmail.com</li>
+                    <li><span class="font-semibold">Address:</span> taif,saudi araia</li>
+                </ul>
+            </div>
+        </div>
+
+  
+        <hr class="border-t border-gray-700 my-6">
+
+        
+        <div class="flex justify-between items-center text-sm text-gray-400">
+            <p>&copy; 2024 Your Company. All rights reserved.</p>
+            <div class="space-x-4">
+                <a href="#" class="hover:text-white">Privacy Policy</a>
+                <a href="#" class="hover:text-white">Terms of Service</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
 
     <script src="./js/index.js"></script>
 

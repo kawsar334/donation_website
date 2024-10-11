@@ -19,7 +19,7 @@
         theme: {
             extend: {
                 colors: {
-                    btn_bg: "rgb(180, 244, 97)",
+                   btn_bg: "  #1abc9c  ",
                     nav_bg: 'rgb(249, 247, 243)',
                     body_bg: "rgb(255, 255, 255)"
                 },
@@ -39,12 +39,12 @@
     }
 </style>
 
-<body class="google_font bg-body_bg tex-[black]">
+<body class="google_font bg-body_bg ">
 
     <header class="sticky top-0 left-0 z-20">
         <nav class="bg-nav_bg flex justify-around items-center capitalize py-5">
             <div class="cursor-pointer ">
-                <a class="bg-btn_bg py-2 px-5 rounded font-semibold" href="../index.html">Home</a>
+                <a class="bg-btn_bg py-2 px-5 rounded font-semibold text-white" href="../index.html">Home</a>
             </div>
             <div class="flex justify-center items-center gap-2 cursor-pointer capitalize">
                 <img src="../assets/logo.png" alt=""class="w-[30px] h-[30px] >
@@ -67,8 +67,56 @@
                 <!-- here dynamic contents using javascript  -->
             </div>
         </div>
-        <footer class="h-[100px] w-full bg-nav_bg mt-[40px]">
-        </footer>
+    </div>
+
+    <!-- footer -->
+    <footer class="bg-gray-800 text-white py-8  mt-[60px]">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">About Us</h3>
+                    <p class="text-gray-400 text-sm">
+                        We are dedicated to providing the best services for our users. Stay connected with us to know more
+                        about our offerings and updates.
+                    </p>
+                </div>
+    
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Useful Links</h3>
+                    <ul class="text-gray-400 text-sm space-y-2">
+                        <li><a href="#intro" class="hover:text-white">Home</a></li>
+                        <li><a href="#about" class="hover:text-white">About Us</a></li>
+                        <li><a href="#services" class="hover:text-white">Services</a></li>
+                        <li><a href="#contact" class="hover:text-white">Contact Us</a></li>
+                    </ul>
+                </div>
+    
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Contact Information</h3>
+                    <ul class="text-gray-400 text-sm space-y-2">
+                        <li><span class="font-semibold">Phone:</span> +966509325731</li>
+                        <li><span class="font-semibold">Email:</span> kawsarfiroz11@gmail.com</li>
+                        <li><span class="font-semibold">Address:</span> taif,saudi araia</li>
+                    </ul>
+                </div>
+            </div>
+    
+    
+            <hr class="border-t border-gray-700 my-6">
+    
+    
+            <div class="flex justify-between items-center text-sm text-gray-400">
+                <p>&copy; 2024 Your Company. All rights reserved.</p>
+                <div class="space-x-4">
+                    <a href="#" class="hover:text-white">Privacy Policy</a>
+                    <a href="#" class="hover:text-white">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+  
+
         <script src="blog.js"></script>   
 </body>
 </html>

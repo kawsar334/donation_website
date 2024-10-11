@@ -1,14 +1,7 @@
-# Welcome to Assignment 5
+# Welcome to Donation website
 
-## <img width=30px src="assets/logo.png"/> DONATE BANGLADESH
-
-## Key Rule
-
-- Do not ask about mark distribution in the group, as it will not be provided.
-- Do not post assignment feedback after receiving it. If you encounter issues or have complaints, please join a support session for discussion.
-- Avoid using "lorem ipsum" text. Use relevant and meaningful content instead.
-- Feel free to modify the color or design, but ensure the design is visually appealing and professional.
-- You are **not allowed** to use any JavaScript library or framework for this assignment.
+- ## DESIGN UI/UX LINK: [https://kawsar334.github.io/donation_website/](https://kawsar334.github.io/donation_website/)
+-  ## Code Link: [https://github.com/kawsar334/donation_website](https://github.com/kawsar334/donation_website)
 
 ## Design
 
@@ -48,17 +41,11 @@
     - Donation amount.
     - Donation name.
 
-## Challenges
+    ## Authors
 
-- **Sticky Navbar**: Make the navbar sticky to the top of the page.
-- **Blog Page**: Create a `blog.html` file and link it to the main page:
-  - The blog page should contain 4 questions and their answers:
-    1. What is the Document Object Model (DOM)?
-    2. How do you select an element from the DOM?
-    3. What is event delegation in the context of the DOM, and why is it useful?
-    4. How do you manipulate an element's attributes and styles using the DOM?
-- **Toggle Active Status**: Toggle the active status of the "Donation" and "History" buttons:
-  - Change the button color to indicate when it's active.
-- **Static Modal**: Display a static modal instead of an alert on a successful donation.
-- **Reusable Functions**: Use at least 2 common functions.
-- **Responsive Design**: Ensure the application is responsive for different screen sizes.
+- github: [Kawsar firoz](https://github.com/kawsar334)
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://kawsar334.github.io/kawsars_portfolio/)
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kawsar-firoz-a140b9237/)
